@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------------------------------------------------------------------- */
+/* Home(Index) Page Styles Starts Here */
+/* Background Image Start */
+.Homepage-body{
+    background-image: url("./Asserts/Images/Home-bg-img-lg.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 576px) {
+    .Homepage-body{
+        background-image: url("./Asserts/Images/Home-bg-img-sm.jpg");
+        background-size: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1200px) {
+    .Homepage-body{
+        background-size: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+/* Background Image End */
+
+/* Banner Start */
+.home-banner h1{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Banner End */
+/* Home(Index) Page Styles Ends Here */
+/* --------------------------------------------------------------------------------- */
+
+
+
+
+
+/* --------------------------------------------------------------------------------- */
+/* Contact-Page Styles Starts Here */
+/* .Contact-body{
+    background-image: url("./Asserts/Images/contact-page-banner-lg.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@media screen and (max-width: 1200px) {
+    .Contact-body{
+        background-image: url("./Asserts/Images/contact-page-banner-sm.jpg");
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+} */
+
+
+.contact-banner>h3{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@media screen and (max-width: 768px){
+    .contact-banner>img{
+        height: 30vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .map-contactform iframe{
+        width: 80vw;
+        justify-self: center;
+        margin-left: 5vw;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    .map-contactform iframe{
+        width: 40vw;
+    }
+}
+
+.contact-info-card .card-hover-text{
+    display:none;
+}
+.contact-info-card .card:hover h1{
+    display:none;
+}
+.contact-info-card .card:hover .card-hover-text{
+    display:block;
+}
+.contact-info-card .card{
+    border: none;
+}
+.contact-info-card .card:hover{
+    border-bottom: 2px orangered solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+@media screen and (max-width: 1200px){
+    .contact-info-card .card-hover-text{
+        display:block;
+    }
+
+    .contact-info-card .card{
+        border-bottom: 2px orangered solid;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Contact-Page Styles Ends Here */
+/* --------------------------------------------------------------------------------- */
+
+
+
+
+
+/* --------------------------------------------------------------------------------- */
+/* Common Styles - Start */
+/* Nav-Bar Styles Start */
+.navigation-top-bar h5{
+    font-family: "Cairo Play", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+@media screen and (max-width: 992px) {
+    .navigation-bar .nav-bar-end{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation-bar .nav-bar-end .bi{
+        padding-top: 10px;
+        font-size: 30px;
+    }
+}
+/* Nav-Bar Styles End */
+
+/* Footer Styles Start */
+@media screen and (max-width: 992px) {
+    .footer-section{
+        text-align: center;
+    }
+}
+/* Footer Styles End */
+/* Common Styles - End */
+/* --------------------------------------------------------------------------------- */
