@@ -29,7 +29,7 @@
 
 @media screen and (min-width: 576px) and (max-width: 1200px) {
     .Homepage-body{
-        background-size: 100vh;
+        background-size: 100vw 100vh;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
@@ -43,11 +43,180 @@
     font-style: normal;
 }
 /* Banner End */
+
+/* Book Appointment Start */
+#exampleModal .book-appointment{
+    background-image: url("./Asserts/Images/book-appointment.jpg");
+}
+/* Book Appointment End */
+
+/* Why Choose Us Styles Start */
+.wcu-card:hover{
+    transform: scale(1.1);
+}
+/* #why-choose-us .wcu-img:hover{
+    animation: animate 3s ease-in-out infinite;
+    animation-direction: alternate;
+}
+@keyframes animate {
+    to{
+        transform: scale(1.2);
+    }
+  } */
+/* Why Choose Us Styles End */
+
+/* Our Highlights Styles(CarMAN2.0) Start */
+
+#highlights .highlights-row{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+@media screen and (max-width: 576px) {
+    #highlights .highlights-row{
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+}
+#highlights .highlights-card1{
+    background-image: url("./Asserts/Images/highlights-app.png");
+    opacity: 0.75;
+}
+#highlights .highlights-card2{
+    background-image: url("./Asserts/Images/highlights-hybrid.png");
+    opacity: 0.75;
+}
+#highlights .highlights-card3{
+    background-image: url("./Asserts/Images/highlights-smartcar.jpg");
+    opacity: 0.75;
+}
+#highlights .highlights-card4{
+    background-image: url("./Asserts/Images/highlights-ai.jpeg");
+    opacity: 0.75;
+}
+#highlights .highlights-card1:hover,
+#highlights .highlights-card2:hover,
+#highlights .highlights-card3:hover,
+#highlights .highlights-card4:hover{
+    opacity: 1;
+}
+/* Our Highlights Styles End */
+
 /* Home(Index) Page Styles Ends Here */
 /* --------------------------------------------------------------------------------- */
 
 
 
+
+
+/* --------------------------------------------------------------------------------- */
+/* Services Page Style Start Here */
+.services-body {
+    background-color: black; /* background color of  entire page */
+    color: white; 
+  }
+  
+  /* Banner Section */
+  .services-banner {
+    background-color: black; /* Set banner section background color */
+  }
+  
+  .services-banner p {
+    color: whitesmoke; /* Set banner text color */
+  }
+  
+  /* Main Section */
+  .services-container {
+    padding: 50px 15px; /* Add padding to the main section */
+  }
+  
+  .services-container h2,
+  .services-container p {
+    color: white; /* Set main section text color */
+  }
+  
+  .service-item {
+    background-color: #333; /* Set service item background color (dark grey) */
+    color: white; /* Set service item text color */
+    padding: 20px; /* Add padding to service items */
+    margin-bottom: 20px; /* Add bottom margin to service items */
+    border-radius: 10px; /* Round the corners of service items */
+  }
+  
+  .service-item h3 {
+    color: white; /* Set service item title text color */
+  }
+  
+  .service-item p {
+    color: #aaa; /* Set service item description text color (light grey) */
+  }
+  
+  /* FAQ Section */
+  .red-text {
+    color: red;
+  }
+  
+  .services-accordion-button {
+    color: rgb(213, 16, 16); /* Set FAQ section accordion button text color */
+  }
+  
+  .services-accordion-body {
+    background-color: #333; /* Set FAQ section accordion body background color (dark grey) */
+    color: white; /* Set FAQ section accordion body text color */
+  }
+/* Services Page Style End Here */
+/* --------------------------------------------------------------------------------- */  
+
+
+
+
+
+/* --------------------------------------------------------------------------------- */  
+/* Sign-up/Login Page Style Start */
+.sign-up-body,.log-in-body {
+    background : url(./Asserts/Images/car\ servicess.jpg)no-repeat  center fixed; /* background color of  entire page */
+    background-size: cover; /* Cover the entire viewport */
+    color:white; 
+  }
+
+.sign-up-card, .log-in-card {
+     background-color: rgba(51, 51, 51, 0.8); 
+     border: 2px solid #f00; /* Red border */
+     border-radius: 8px;
+     padding: 20px; /* Padding inside the card */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+     
+ }
+ .sign-up-card{
+    transform: translateY(20%);
+ }
+ .log-in-card{
+    transform: translateY(50%);
+ }
+.sign-up-card-title, .log-in-card-title {
+    color: #f00; /* Red color for heading */
+    text-align: center;
+}
+/* Sign-up/Login Page Style End */
+/* --------------------------------------------------------------------------------- */  
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------- */  
+/* Unoriginals Styles Start */
+.unoriginals-body{
+    background-image: url("./Asserts/Images/unoriginals-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Unoriginals Styles End */
+/* --------------------------------------------------------------------------------- */  
 
 
 /* --------------------------------------------------------------------------------- */
