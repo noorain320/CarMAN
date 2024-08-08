@@ -13,7 +13,7 @@
 /* Background Image Start */
 .Homepage-body{
     background-image: url("./Asserts/Images/Home-bg-img-lg.jpg");
-    background-size: 100vw;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -166,6 +166,10 @@
     background-color: #333; /* Set FAQ section accordion body background color (dark grey) */
     color: white; /* Set FAQ section accordion body text color */
   }
+  .accordion{
+    --bs-accordion-active-bg: rgba(241, 118, 118, 0.778);
+    --bs-accordion-btn-focus-box-shadow: 0px 0px 8px 3px rgb(245, 75, 75);
+}
 /* Services Page Style End Here */
 /* --------------------------------------------------------------------------------- */  
 
@@ -209,12 +213,15 @@
 
 /* --------------------------------------------------------------------------------- */  
 /* Unoriginals Styles Start */
-.unoriginals-body{
+/* .unoriginals-body{
     background-image: url("./Asserts/Images/unoriginals-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.unoriginals-banner{
+
+} */
 /* Unoriginals Styles End */
 /* --------------------------------------------------------------------------------- */  
 
