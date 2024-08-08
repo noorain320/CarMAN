@@ -180,7 +180,7 @@
 /* --------------------------------------------------------------------------------- */  
 /* Sign-up/Login Page Style Start */
 .sign-up-body,.log-in-body {
-    background : url(./Asserts/Images/car\ servicess.jpg)no-repeat  center fixed; /* background color of  entire page */
+    background : url(./Asserts/Images/car-servicess.jpg) no-repeat  center fixed; /* background color of  entire page */
     background-size: cover; /* Cover the entire viewport */
     color:white; 
   }
@@ -213,15 +213,9 @@
 
 /* --------------------------------------------------------------------------------- */  
 /* Unoriginals Styles Start */
-/* .unoriginals-body{
-    background-image: url("./Asserts/Images/unoriginals-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.unoriginals-body{
+    background-color: black;
 }
-.unoriginals-banner{
-
-} */
 /* Unoriginals Styles End */
 /* --------------------------------------------------------------------------------- */  
 
